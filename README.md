@@ -160,3 +160,6 @@ if __name__ == "__main__":
     Default Usage:
     1-Python
     2-Libraries python(Numpy,PyQt)
+    __
+    ##Projects Links
+    ![](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
