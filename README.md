@@ -1,12 +1,11 @@
-# Snake Game Python Repo
+# Brick Breaker Game Python Repo
 _
-<p>This Repo is for snake game</p>
-This is project Brick Breaker
+<p>This Repo is for Brick Breaker</p>
+
 _
 
 
 ##Code
-
 
 import sys
 import numpy as np
@@ -151,6 +150,11 @@ class Ball_Game(QMainWindow):
             self.p_y.insert(0, self.p_y[0]-1)
             self.img[self.p_x[0],self.p_y[0]] = 255
 
+if __name__ == "__main__":
+    app = QApplication(sys.argv)
+    player = Ball_Game()
+    player.show()
+    sys.exit(app.exec_())
 
     _
     Default Usage:
