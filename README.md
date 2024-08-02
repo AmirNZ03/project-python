@@ -1,6 +1,6 @@
 # Brick Breaker Game Python Repo
 _
-<p>This Repo is for Brick Breaker</p>
+<p>This Repo is for Brick Breaker geme</p>
 
 _
 
