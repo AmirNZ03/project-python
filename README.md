@@ -3,6 +3,8 @@ _
 <p>This Repo is for snake game</p>
 This is project Brick Breaker
 _
+
+
 ##Code
 
 
@@ -149,15 +151,8 @@ class Ball_Game(QMainWindow):
             self.p_y.insert(0, self.p_y[0]-1)
             self.img[self.p_x[0],self.p_y[0]] = 255
 
-if __name__ == "__main__":
-    app = QApplication(sys.argv)
-    player = Ball_Game()
-    player.show()
-    sys.exit(app.exec_())
+
     _
     Default Usage:
     1-Python
     2-Libraries python(Numpy,PyQt)
-
-
-In this project use as Python libraries for example NumPy,PyQt
